@@ -1,0 +1,131 @@
+## 08 – Monitoring and Administrative Tools
+This section describes the monitoring and administrative tools available in Windows Server 2012 for managing the szkola.local domain. These tools help administrators diagnose issues, monitor performance, verify domain health, and maintain the stability of the environment. Understanding these tools is essential for effective domain administration.
+
+## Event Viewer
+Event Viewer is used to review system, security, and application logs. It is one of the primary tools for diagnosing issues on the Domain Controller and client machines.
+
+Tasks performed
+- Opened Event Viewer from Server Manager.
+- Reviewed logs under:
+- Windows Logs → System
+- Windows Logs → Application
+- Windows Logs → Security
+- Applications and Services Logs → DNS Server
+- Applications and Services Logs → Directory Servic- e
+- Checked for warnings or errors related to AD DS, DNS, or authentication.
+
+Expected results
+- No critical errors in AD DS or DNS logs.
+- Successful logon events visible in the Security log.
+- System logs show normal server operation.
+
+Screenshots
+(Add your screenshots here)
+- Event Viewer main window
+- Directory Service log
+- DNS Server log
+
+## Performance Monitor
+Performance Monitor helps track system performance, resource usage, and long‑term trends.
+
+Tasks performed
+- Opened Performance Monitor.
+- Added counters such as:
+- Processor time
+- Memory usage
+- Disk activity
+- Network interface throughput
+- Created a basic performance monitoring session.
+
+Expected results
+- Server performance remains stable under normal load.
+- No unusual spikes in CPU, RAM, or disk usage.
+
+Screenshots
+(Add your screenshots here)
+- Performance Monitor with counters
+- Resource usage graphs
+
+## Task Manager and Resource Monitor
+These tools provide real‑time insight into running processes and resource consumption.
+
+Tasks performed
+- Opened Task Manager to review active processes.
+- Used Resource Monitor for detailed CPU, disk, and network activity.
+- Verified that AD DS and DNS services are running.
+
+Expected results
+- Domain Controller services (e.g., lsass.exe, dns.exe) are active.
+- No unexpected processes consuming excessive resources.
+
+Screenshots
+(Add your screenshots here)
+- Task Manager
+- Resource Monitor
+
+## Active Directory Administrative Tools
+Windows Server provides several AD‑specific tools for managing and monitoring domain components.
+
+Tools reviewed
+- Active Directory Users and Computers (ADUC)
+Used to manage users, groups, and OUs.
+- Active Directory Sites and Services
+Used to verify Domain Controller status and replication.
+- Active Directory Domains and Trusts
+Used to manage domain and forest functional levels.
+- DNS Manager
+Used to monitor DNS zones and records.
+
+Expected results
+- Domain Controller appears healthy in Sites and Services.
+- DNS zones contain correct records.
+- No replication errors (single‑DC environment).
+
+Screenshots
+(Add your screenshots here)
+- AD Sites and Services
+- DNS Manager health view
+
+## dcdiag and repadmin (Command‑Line Tools)
+These tools provide deeper diagnostics for AD DS.
+
+Tasks performed
+- Ran dcdiag to check domain controller health.
+- Ran repadmin /replsummary (even though replication is minimal in a single‑DC environment).
+Example commands
+
+```
+dcdiag /v
+repadmin /replsummary
+```
+
+Expected results
+- dcdiag reports no critical errors.
+- repadmin shows no replication issues.
+
+Screenshots
+(Add your screenshots here)
+- dcdiag output
+- repadmin output
+
+## Monitoring Client Connectivity
+Tasks performed
+- Logged into a Windows 10 domain‑joined machine.
+- Verified:
+- Successful domain logon
+- DNS resolution
+- GPO application using gpresult /r
+- Access to network shares
+
+Expected results
+- Client authenticates against the Domain Controller.
+- GPOs apply correctly.
+- Network shares are accessible based on permissions.
+Screenshots
+
+(Add your screenshots here)
+- gpresult output
+- Successful domain logon
+
+## Summary
+Monitoring and administrative tools in Windows Server 2012 provide essential visibility into the health and performance of the szkola.local domain. Event Viewer, Performance Monitor, AD tools, and command‑line diagnostics help ensure that the Domain Controller, DNS, and client systems operate reliably. With these tools, administrators can quickly identify issues, verify configuration, and maintain a stable school domain environment.

@@ -8,19 +8,19 @@ windows-server-labs/
 ├── README.md
 │
 ├── docs/
-│   ├── 01-enviroment-setup.md
-│   ├── 02-instalacja-ad-ds.md
-│   ├── 03-konfiguracja-dns.md
-│   ├── 04-struktura-ou-i-uzytkownicy.md
+│   ├── 01-environment-setup.md
+│   ├── 02-ad-ds-installation.md
+│   ├── 03-dns-configuration.md
+│   ├── 04-ou-structure-and-users.md
 │   ├── 05-gpo.md
-│   ├── 06-udzialy-sieciowe.md
+│   ├── 06-network-shares.md
 │   ├── 07-logon-scripts.md
-│   └── 08-monitoring-i-narzedzia.md
+│   └── 08-monitoring-and-tools.md
 │
 └── screenshots/
-    ├── ip-konfiguracja.png
-    ├── ad-ds-instalacja.png
+    ├── ip-configuration.png
+    ├── ad-ds-installation.png
     ├── join-domain.png
     ├── gpo-students.png
-    └── ...
+
 ```
