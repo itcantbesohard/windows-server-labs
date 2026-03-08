@@ -1,5 +1,5 @@
-# Windows Server + Windows 10 - School Domain Lab
-This repository documents the creation of a Windows Server 2012 domain environment with Windows 10 clients, simulating a small school infrastructure. The server acts as a domain controller for szkola.local, while the Windows 10 machines represent different user roles such as student, teacher, and administrator. 
+# Windows Server + Windows 7 - School Domain Lab
+This repository documents the creation of a Windows Server 2012 domain environment with Windows 7 clients, simulating a small school infrastructure. The server acts as a domain controller for szkola.local, while the Windows 10 machines represent different user roles such as student, teacher, and administrator. 
 
 ## Repository structure
 ```

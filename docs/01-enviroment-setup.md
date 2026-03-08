@@ -5,7 +5,7 @@ This section describes the preparation of the virtual environment used for the W
 Machines used
 - Windows Server 2012
 Role: Domain Controller (AD DS, DNS)
-- Windows 10
+- Windows 7
 Role: Client machine (student/teacher/admin profiles)
 Tasks performed
 - Created two virtual machines in VirtualBox.
@@ -21,18 +21,17 @@ Server (Windows Server 2012)
 - Assigned a static IP address
 - Configured subnet mask and gateway
 - Set DNS to point to itself (server IP)
-Client (Windows 10)
+Client (Windows 7)
 - Configured to obtain IP automatically or set manually within the same subnet
 - DNS set to the server’s IP (required for domain join)
 Example configuration
-- Server: 192.168.10.10
-- Client: 192.168.10.20
+- Server: 10.0.0.1
+- Client: 10.0.0.10
 - Subnet: 255.255.255.0
-- DNS: 192.168.10.10
+- DNS: 
 Screenshots:
-(Add your screenshots here)
-ipconfig on server
-ipconfig on client
+ipconfig on server: (screenshots/server-ipconfig.png)
+ipconfig on client: (screenshots/client-ipconfig.png)
 
 ## Connectivity Testing
 Tasks performed
@@ -41,9 +40,9 @@ Tasks performed
 Expected results
 - Successful ping from client → server
 - Successful ping from server → client
-Screenshots
-(Add your screenshots here)
-- Ping results
+Screenshots:
+ping on server: (screenshots/server-ping.png)
+ping on client: (screenshots/client-ping.png)
 
 ## Summary
 At this stage, the environment is ready for installing Active Directory Domain Services. Both machines are connected, the server has a static IP, and the client can reach the server using DNS. This forms the foundation for the next steps in the lab.
