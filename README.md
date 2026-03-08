@@ -8,7 +8,7 @@ windows-server-labs/
 ├── README.md
 │
 ├── docs/
-│   ├── 01-przygotowanie-srodowiska.md
+│   ├── 01-enviroment-setup.md
 │   ├── 02-instalacja-ad-ds.md
 │   ├── 03-konfiguracja-dns.md
 │   ├── 04-struktura-ou-i-uzytkownicy.md
