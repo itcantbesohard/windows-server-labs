@@ -32,6 +32,7 @@ Example configuration
 Screenshots:
 [ipconfig on server](screenshots/server-ipconfig.png)
 [ipconfig on client](screenshots/client-ipconfig.png)
+<<<<<<< HEAD
 
 ## Backup Configuration
 - Configured Windows Server Backup
@@ -41,6 +42,8 @@ Screenshots:
 Screenshots
 [backup schedule](screenshots/backup-schedule.png)
 - Backup target volume
+=======
+>>>>>>> 302a72cb5c4295b03aa23cbfcb6702e62698bd33
 
 ## Connectivity Testing
 Tasks performed
