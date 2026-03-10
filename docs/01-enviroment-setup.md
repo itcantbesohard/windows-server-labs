@@ -12,10 +12,8 @@ Tasks performed
 - Assigned appropriate resources (CPU, RAM, disk).
 - Configured both machines to use the same internal/host‑only network.
 
-Screenshots
-(Add your screenshots here)
-- VM settings
-- Network configuration
+Screenshots:
+- [VM config](/screenshots/vm-config.png)
 
 ## Network Configuration
 Server (Windows Server 2012)
@@ -51,6 +49,7 @@ Tasks performed
 Expected results
 - Successful ping from client → server
 - Successful ping from server → client
+
 Screenshots:
 - [ping on server](/screenshots/server-ping.png)
  - [ping on client](/screenshots/client-ping.png)
