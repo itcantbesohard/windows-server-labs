@@ -30,20 +30,16 @@ Example configuration
 - Subnet: 255.255.255.0
 - DNS: 
 Screenshots:
-[ipconfig on server](screenshots/server-ipconfig.png)
-[ipconfig on client](screenshots/client-ipconfig.png)
-<<<<<<< HEAD
+- [ipconfig on server](/screenshots/server-ipconfig.png)
+- [ipconfig on client](/screenshots/client-ipconfig.png)
 
 ## Backup Configuration
 - Configured Windows Server Backup
 - Full system backup
 - Schedule: daily at 21:00
 - Backup target: separate volume on the same physical disk
-Screenshots
-[backup schedule](screenshots/backup-schedule.png)
-- Backup target volume
-=======
->>>>>>> 302a72cb5c4295b03aa23cbfcb6702e62698bd33
+Screenshots:
+- [backup schedule](/screenshots/backup-schedule.png)
 
 ## Connectivity Testing
 Tasks performed
@@ -53,8 +49,8 @@ Expected results
 - Successful ping from client → server
 - Successful ping from server → client
 Screenshots:
-[ping on server](screenshots/server-ping.png)
-[ping on client](screenshots/client-ping.png)
+- [ping on server](/screenshots/server-ping.png)
+ - [ping on client](/screenshots/client-ping.png)
 
 ## Summary
 At this stage, the environment is ready for installing Active Directory Domain Services. Both machines are connected, the server has a static IP, and the client can reach the server using DNS. This forms the foundation for the next steps in the lab.
