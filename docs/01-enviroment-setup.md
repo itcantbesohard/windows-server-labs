@@ -11,6 +11,7 @@ Tasks performed
 - Created two virtual machines in VirtualBox.
 - Assigned appropriate resources (CPU, RAM, disk).
 - Configured both machines to use the same internal/host‑only network.
+
 Screenshots
 (Add your screenshots here)
 - VM settings
@@ -28,7 +29,8 @@ Example configuration
 - Server: 10.0.0.1
 - Client: 10.0.0.10
 - Subnet: 255.255.255.0
-- DNS: 
+- DNS: -
+
 Screenshots:
 - [ipconfig on server](/screenshots/server-ipconfig.png)
 - [ipconfig on client](/screenshots/client-ipconfig.png)
@@ -38,6 +40,7 @@ Screenshots:
 - Full system backup
 - Schedule: daily at 21:00
 - Backup target: separate volume on the same physical disk
+
 Screenshots:
 - [backup schedule](/screenshots/backup-schedule.png)
 
