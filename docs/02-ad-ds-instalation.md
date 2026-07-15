@@ -12,7 +12,7 @@ Expected results
 - AD DS role installed successfully.
 - Server Manager displays a notification to promote the server to a Domain Controller.
 Screenshots:
-[ad install](/screenshots/ad-install.png)
+- [ad install](/screenshots/ad-install.png)
 - AD DS role installation wizard
 - Installation completed successfully
 
@@ -29,8 +29,8 @@ Expected results
 - Server becomes the first Domain Controller in the forest.
 - Domain szkola.local is created.
 - DNS service is automatically installed and configured.
-Screenshots
-(Add your screenshots here)
+Screenshots:
+- [AD ready](/screenshots/ad-ready.png)
 - Domain creation wizard
 - DSRM password screen
 - Post‑restart confirmation
@@ -45,8 +45,6 @@ Expected results
 - Domain szkola.local visible in ADUC.
 - Forward Lookup Zone created automatically.
 - Server listed as a Domain Controller.
-Screenshots
-(Add your screenshots here)
 - ADUC domain tree
 - DNS zone view
 - Domain Controller listing
