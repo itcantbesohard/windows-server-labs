@@ -11,10 +11,10 @@ Tasks performed
 Expected results
 - AD DS role installed successfully.
 - Server Manager displays a notification to promote the server to a Domain Controller.
-Screenshots
-(Add your screenshots here)
+Screenshots:
+[ad install](/screenshots/ad-install.png)
 - AD DS role installation wizard
-- Installation p
+- Installation completed successfully
 
 ## Promoting the Server to a Domain Controller
 Tasks performed
