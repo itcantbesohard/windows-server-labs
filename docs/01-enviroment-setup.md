@@ -52,7 +52,7 @@ Expected results
 
 Screenshots:
 - [ping on server](/screenshots/server-ping.png)
- - [ping on client](/screenshots/client-ping.png)
+- [ping on client](/screenshots/client-ping.png)
 
 ## Summary
 At this stage, the environment is ready for installing Active Directory Domain Services. Both machines are connected, the server has a static IP, and the client can reach the server using DNS. This forms the foundation for the next steps in the lab.

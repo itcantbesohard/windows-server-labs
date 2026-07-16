@@ -29,11 +29,9 @@ Expected results
 - Server becomes the first Domain Controller in the forest.
 - Domain szkola.local is created.
 - DNS service is automatically installed and configured.
+
 Screenshots:
 - [AD ready](/screenshots/ad-ready.png)
-- Domain creation wizard
-- DSRM password screen
-- Post‑restart confirmation
 
 ## Verifying AD DS Installation
 Tasks performed

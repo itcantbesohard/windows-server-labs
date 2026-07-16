@@ -23,11 +23,8 @@ Expected results
 - The szkola.local zone exists and contains all required AD-related records.
 - The Domain Controller appears with the correct IP address.
 - No errors or warnings in DNS Manager.
-Screenshots
-(Add your screenshots here)
-- DNS Manager main view
-- Forward Lookup Zone contents
-- SRV record folders
+Screenshots:
+- [DNS manager](/screenshots/dns-manager.png)
 
 ## Testing DNS Resolution
 Tasks performed
@@ -47,8 +44,8 @@ Expected results
 
 Screenshots
 (Add your screenshots here)
-- nslookup results on server
-- nslookup results on client
+- [nslookup results on server](/screenshots/nslookup-server.png)
+- [nslookup results on client](/)
 
 ## Common Issues and Fixes
 Missing SRV records
