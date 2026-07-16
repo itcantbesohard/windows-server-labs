@@ -45,7 +45,7 @@ Expected results
 Screenshots
 (Add your screenshots here)
 - [nslookup results on server](/screenshots/nslookup-server.png)
-- [nslookup results on client](/)
+- [nslookup results on client](/screenshots/nslookup-client.png)
 
 ## Common Issues and Fixes
 Missing SRV records

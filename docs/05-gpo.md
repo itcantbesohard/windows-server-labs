@@ -25,15 +25,13 @@ Expected results
 - No cross‑OU policy inheritance unless explicitly configured.
 
 Screenshots
-(Add your screenshots here)
-- GPO list in Group Policy Management
-- GPO linked to OU
+- [GPO list in Group Policy Management](/screenshots/gpo-list.png)
 
 ## Example Settings for Students
 Tasks performed
 - Disabled access to Control Panel.
 - Blocked command prompt.
-- Restricted access to system settings.
+- Restricted access to registry editing.
 - Configured a custom desktop background (optional).
 - Disabled the ability to install software.
 
@@ -43,9 +41,10 @@ Expected results
 - Desktop experience is consistent across all student accounts.
 
 Screenshots
-(Add your screenshots here)
-- Control Panel restriction
-- Command prompt restriction
+- [Command prompt restriction](/screenshots/gpo-block-cmd.png)
+- [Pendrive restriction](/screenshots/gpo-block-pendrive.png)
+- [Registry editing restriction](/screenshots/gpo-block-regedit.png)
+-[Internet Explorer restriction on cient](/screenshots/gpo-client-block-view.png)
 
 ## Example Settings for Teachers
 Tasks performed
@@ -78,7 +77,7 @@ Screenshots
 - Administrative tools enabled
 
 ## Tasks performed
-- Logged in as a student, teacher, and admin on a Windows 10 domain‑joined machine.
+- Logged in as a student, teacher, and admin on a Windows 7 domain‑joined machine.
 - Ran gpupdate /force to apply policies.
 - Verified that each role receives the correct restrictions or permissions.
 Expected results
@@ -87,8 +86,8 @@ Expected results
 - Admins have full access.
 Screenshots
 (Add your screenshots here)
-- gpupdate results
-- User environment after GPO application
+- [gpupdate results](/screenshots/gpo-update-client.png)
+- [Google Chrome Instalation](/screenshots/gpo-chrome-install.png)
 
 ## Summary
 GPOs have been successfully created and applied to the appropriate OUs. Each user role now has a tailored environment that reflects its responsibilities and permissions within the school domain. The next step in the lab will focus on configuring shared network resources and assigning permissions based on the security groups created earlier.
