@@ -8,7 +8,7 @@ Tasks performed
 - Students
 - Teachers
 - Admins
-- Computers
+- Chiefs
 - Ensured that OUs are used instead of default system containers (e.g., Users), so GPOs can be applied properly.
 Expected results
 - A clean and readable OU structure is visible in ADUC.
@@ -36,27 +36,22 @@ Expected results
 - Administrative accounts can manage the domain environment.
 
 Screenshots
-(Add your screenshots here)
-- User creation wizard
-- User list inside each OU
-- User account properties
+- [ADUC](/screenshots/ADUC.png)
 
 ## Creating Security Groups
 Tasks performed
 - Created domain security groups:
-- Students_G
-- Teachers_G
-- Admins_G
+- students
+- teachers
+- admins
 - Added users to their respective groups.
 - Prepared groups for later use in permissions and GPO assignments.
 Expected results
 - Each user belongs to the correct security group.
 - Groups can be used to manage access to shared folders and apply GPOs.
 
-Screenshots
-(Add your screenshots here)
-- Group list in ADUC
-- Group membership view
+Screenshots:
+- [Group membership view](/screenshots/aduc-group.png)
 
 ## Summary
 The OU structure and user accounts have been successfully created. The environment is now ready for applying Group Policy Objects tailored to each role and for joining Windows 10 machines to the domain. The next step will focus on configuring GPOs to control the user experience and security settings.
