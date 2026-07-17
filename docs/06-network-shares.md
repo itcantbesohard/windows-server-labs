@@ -35,9 +35,7 @@ Expected results
 - Admins have full control over all shares.
 - Public share is accessible to all domain users.
 Screenshots
-(Add your screenshots here)
-- NTFS permission settings
-- Group assignments
+[Sharing config](/screenshots/advanced-sharing-settings.png)
 
 ## Configuring Share Permissions
 Tasks performed
@@ -47,9 +45,8 @@ Tasks performed
 Expected results
 - Access is managed consistently through NTFS rules.
 - No conflicts between share and NTFS permissions.
-Screenshots
-(Add your screenshots here)
-- Share permissions window
+Screenshots:
+- [Sharing config](/screenshots/folder-stucture.png)
 
 ## Mapping Network Drives (Optional)
 Tasks performed
@@ -63,10 +60,10 @@ User Configuration → Preferences → Windows Settings → Drive Maps
 Expected results
 - Drives appear automatically when users log in.
 - No manual configuration is required on client machines.
-Screenshots
-(Add your screenshots here)
-- Drive mapping GPO settings
-- Mapped drives visible on a client machine
+Screenshots:
+- [Drive mapping GPO settings](/screenshots/gpo-mapped-drives.png)
+- [Public Drive mapping GPO settings](/screenshots/gpo-public-drive.png)
+- [Mapped drives visible on a client machine](/screenshots/client-mapped-drive.png)
 
 ## Testing Access from a Client Machine
 Tasks performed
@@ -80,10 +77,6 @@ Expected results
 - Admins can access all shares.
 - Permissions behave consistently across all clients.
 
-Screenshots
-(Add your screenshots here)
-- Access tests for each role
-- Permission denied message (if applicable)
 
 ## Summary
 Network shares have been successfully created and secured using NTFS and share permissions. Each user role now has access to the appropriate resources, and optional drive mapping ensures a smooth user experience. The environment is now ready for implementing logon scripts and additional automation in the next step of the lab.
