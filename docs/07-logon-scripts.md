@@ -49,9 +49,7 @@ Expected results
 - Drives are mapped automatically at logon.
 - Users receive only the drives relevant to their role.
 Screenshots
-(Add your screenshots here)
-- Script content in Notepad
-- Successful drive mapping after logon
+- [Scripts](/screenshots/scripts.png)
 
 ## Assigning Logon Scripts via GPO
 Tasks performed
@@ -67,9 +65,7 @@ Expected results
 - Each user group runs its assigned script at logon.
 - Scripts execute automatically without user interaction.
 Screenshots
-(Add your screenshots here)
-- Logon script assignment in GPO
-- Script list window
+- [Logon script assignment in GPO](/screenshots/gpo-script-logon.png)
 
 ## Testing Logon Scripts on a Client Machine
 Tasks performed
@@ -83,9 +79,7 @@ Expected results
 - Admins receive A: and P: drives.
 - Scripts run silently and reliably.
 Screenshots
-(Add your screenshots here)
-- Mapped drives in File Explorer
-- gpresult output
+- [gpresult output](/screenshots/client-gpresult.png)
 
 ## Summary
 Logon scripts have been successfully created, stored in SYSVOL, and assigned through GPOs. Each user role now receives the correct network drives automatically at sign‑in, ensuring a consistent and functional environment. The next step in the lab focuses on monitoring and administrative tools to manage and troubleshoot the domain.
